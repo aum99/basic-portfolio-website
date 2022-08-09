@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather'
+}
+
+h1{
+  font-family: 'Satisfy';
+  font-size: 5.625rem;
+  margin: 20px auto 0 auto;
+  color: #a3c4f3;
+}
+
+h2 {
+  color: #a3c4f3;
+  font-family: 'Montserrat'
+}
+
+h3{
+  color: #858ae3;
+  font-family: 'Montserrat';
+}
+p{
+  line-height: 2;
+}
+
+hr {
+  margin-top: 50px;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 100px;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.title-text {
+  padding: 20px;
+}
+
+.top-container {
+  background-color: #fafaff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  font-family: 'Montserrat';
+  background-color: #e7c6ff;
+  padding: 50px 0 20px;
+}
+
+.mountain {
+  height: 500px;
+  width: 700px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 500px;
+}
+
+.profile {
+  margin: 100px auto;
+}
+
+.skills {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  padding: 20px;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.code-img {
+  margin-right: 30px;
+  float: left;
+}
+
+.typing-img {
+  float: right;
+  margin-left: 20px;
+}
+
+.contact-message {
+  margin-bottom: 30px;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
